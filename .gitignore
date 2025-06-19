@@ -1,0 +1,56 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+
+# Virtual environment
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Editor/IDE configs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Alembic
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# SQLite
+*.sqlite3
+*.db
+
+# Logs and local output
+*.log
+*.pot
+*.mo
+
+# Uvicorn reload artifacts
+*.pid
+
+# Compiled Cython files
+*.so
+
+# dotenv
+.env
+.env.*
+
+# pytest
+.cache/
+*.cover
+coverage.xml
+htmlcov/
+
+# FastAPI static/test files (if applicable)
+static/
+tests/__pycache__/
+tests/*.pyc
